@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>MAINPAGE</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='sty.css'>
+    
+</head>
+<html>
+<body>
+    <div class="one">
+     <h1>
+        BIBLIOBITS
+     </h1>
+     
+    </div> 
+    <ul class="nav">
+        <a href="main.html" target="_parent">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="login.html"  target="_blank">login</a> 
+       
+      </ul>
+ <style>
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="container" >
+            <img class="mySlides" src="bibli.png" style="width:700px; height : 400px">
+            <img class="mySlides" src="unnamed.jpg"style="width:700px; height: 400px;">
+            <img class="mySlides" src="img4.jpg" style="width:700px;height: 400px;">
+            <img class="mySlides" src="img5.jpg"style="width:700px;height: 400px">
+            
+  
+          </div>
+          <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+            
+             </script>
+    
+    
+      
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+ <div class="four">
+    <div class="two">
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <h2>DESCRIPTION</h2>
+      <h4>
+      Bibliobits is an educational website. This website will be an e-library guide for our college and many more. Our website will include textbooks, reference books, PDFs, etc. of subjects from both CSE and IT. 
+      </h4>
+    </div>
+   <div class="three">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+     <p>
+     <h3 style="text-align:center;color:rgb(89, 5, 5);font-size: xx-large;">YEARS AVAILABLE</h3>
+     <ul><li><a href="page3.html"  target="_blank"> First year</a></li>
+      <li><a href="page1.html"  target="_blank">Second year</a></li>
+     </ul>
+     </p>
+    </div>
+ </body>
+ <footer>
+  
+    <center>
+     <h2>copyrights@bibliobits<h2>
+    </center>
+  
+  </footer>
+</html>
